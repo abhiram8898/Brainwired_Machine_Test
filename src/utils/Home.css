@@ -1,0 +1,66 @@
+/* Home.css */
+
+.card {
+  width: 300px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd; /* Adjust border color */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #e2e5e6; /* Pastel background color */
+  transition: box-shadow 0.3s ease; /* Add transition for box-shadow */
+}
+
+.card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adjust shadow on hover */
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1.5rem; /* Adjust font size */
+  color: #333; /* Adjust font color */
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px; /* Add border radius to images */
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; /* Adjust as needed */
+}
+
+.card-hovered {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.closing-button {
+  color: red;
+  border: none;
+  background: none;
+  font-size: 30px;
+  transition: transform 0.4s ease;
+}
+
+.closing-button:hover {
+  transform: scale(1.5);
+}
+
+.modal-body a {
+  color: #007bff; /* Blue link color */
+  text-decoration: none;
+}
+
+.modal-body a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.text{
+  text-align: center;
+  margin-bottom: 30px;
+}
